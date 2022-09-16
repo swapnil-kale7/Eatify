@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    background-color: aquamarine;
+}
+.wel{
+    text-align: center;
+    size: 50px;
+    color: red;
+    background-color:teal ;
+}
