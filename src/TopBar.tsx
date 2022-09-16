@@ -47,7 +47,7 @@ export default function TopBar(props:Iprops) {
             <Toolbar className={styles.toolbar}>
                 <div className={styles.searchbar}>
                     <SearchIcon className={styles.searchIcon} />
-                    <InputBase className={styles.searchBox} placeholder={'Search...'} value={props.searchString} 
+                    <InputBase className={styles.searchBox} placeholder={'Search Hotels...'} value={props.searchString} 
                     onChange={(e)=>props.setSearchString(e.target.value)}/>
                 </div>
                 <div>
